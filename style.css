@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+img {
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 50%;
+    align-content: center;
+    border: 5px solid #074305;
+}
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #2f332f;
+    border-radius: 40px 0 40px 0;
+}
+nav {
+    background-color: #333; /* Warna latar belakang navigasi */
+    padding: 10px 0; /* Padding atas dan bawah */
+    text-align: center; /* Teks rata tengah */
+}
+
+nav ul {
+    list-style: none; /* Hilangkan bullet list */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Menu horizontal */
+    justify-content: center; /* rata tengah horizontal */
+}
+
+nav li {
+    margin: 0 15px; /* Spasi antar item menu */
+}
+
+nav a {
+    color: #fff; /* Warna teks link */
+    text-decoration: none; /* Hilangkan garis bawah link */
+    padding: 8px 16px; /* Padding dalam link */
+    border-radius: 5px; /* Bentuk sudut link */
+    transition: background-color 0.3s ease; /* Transisi hover */
+}
+
+nav a:hover {
+    background-color: #555; 
+}
+
+
+@media (max-width: 768px) { 
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+}
+h1 {
+    color: #dbe9ff;
+    font-size: 350%;
+}
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #a79948;
+    border-radius: 40px 0 40px 0;
+
+}
+
+img {
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 50%;
+    border: 5px solid #7db1ff;
+}
+
+img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+}
+
+
+header button {
+    padding: 8px 20px;
+    background-color: #dcbdff;
+    border: 1px solid rgb(255, 170, 170);
+    display: block;
+    margin:0 auto;
+    border-radius: 20px;
+}
+
+header button:hover {
+    background-color: rgb(204, 182, 255);
+    color: #ffa8e9;
+    border-radius: 20px;
+    transform: scale(.9);
+    transition: all .3s ease-in-out;
+}
+.about {
+    text-align: center;
+    width: 90%;
+    margin: 40px auto;
+    margin-left: 60px;
+    display: flex;
+    color: #ffe032;
+}
+.right-about {
+    text-align: center;
+    color: #dbe9ff;
+}
+.about img {
+    width: 60%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px grey;
+}
+.about h2 {
+    text-align: center;
+    color: #C8ACD6;
+}
+
+header p{
+    position: inherit;
+    text-align: center;
+    width: 50%;
+    height: 6vh;
+    margin: 250px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    color: #fffba8;
+    outline: #fff188;
+    font-size: 250%;
+    font-weight: 700;
+}
+.project h2 {
+    text-align: center;
+    color: #FFD700;
+}
+.project p {
+    text-align: center;
+    color: #efeeff;
+}
+#products {
+    width: 95%;
+    text-align: center;
+    margin: 40px auto;
+}
+#products h2 {
+    color: #d3cfff;
+}
+.cards {
+    border: 1px dashed #462661;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.card {
+    width: 350px;
+    border: 1px solid #3B1E54;
+}
+.card img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card h3 {
+    color: #C8ACD6;
+    font-weight: bold;
+}
+.card p {
+    color: antiquewhite;
+}
+.card a button {
+    margin-bottom: 20px;
+    background-color: #C8ACD6;
+    padding: 8px 25px;
+}
+.card1 {
+    width: 350px;
+    border: 1px solid #3B1E54;
+}
+.card1 img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card1 h3 {
+    color: #C8ACD6;
+    font-weight: bold;
+}
+.card1 p {
+    color: antiquewhite;
+}
+.card1 a button {
+    margin-bottom: 20px;
+    background-color: #C8ACD6;
+    padding: 8px 25px;
+}
+.card2 {
+    width: 350px;
+    border: 1px solid #3B1E54;
+}
+.card2 img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card2 h3 {
+    color: #C8ACD6;
+    font-weight: bold;
+}
+.card2 p {
+    color: antiquewhite;
+}
+.card2 a button {
+    margin-bottom: 20px;
+    background-color: #C8ACD6;
+    padding: 8px 25px;
+}
+.card3 {
+    width: 350px;
+    border: 1px solid #3B1E54;
+}
+.card3 img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card3 h3 {
+    color: #C8ACD6;
+    font-weight: bold;
+}
+.card3 p {
+    color: antiquewhite;
+}
+.card3 a button {
+    margin-bottom: 20px;
+    background-color: #C8ACD6;
+    padding: 8px 25px;
+}
+.card4 {
+    width: 350px;
+    border: 1px solid #3B1E54;
+}
+.card4 img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card4 h3 {
+    color: #C8ACD6;
+    font-weight: bold;
+}
+.card4 p {
+    color: antiquewhite;
+}
+.card4 a button {
+    margin-bottom: 20px;
+    background-color: #C8ACD6;
+    padding: 8px 25px;
+}
+.card5 {
+    width: 350px;
+    border: 1px solid #3B1E54;
+}
+.card5 img {
+    border-radius: 0;
+    width: 100%;
+    border: none;
+}
+.card5 h3 {
+    color: #C8ACD6;
+    font-weight: bold;
+}
+.card5 p {
+    color: antiquewhite;
+}
+.card a button {
+    margin-bottom: 20px;
+    background-color: #C8ACD6;
+    padding: 8px 25px;
+}
+#Contact {
+    text-align: center;
+    color: #dcbdff;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2E236C;
+    color: white;
+}
